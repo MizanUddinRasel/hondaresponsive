@@ -1,0 +1,204 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.banner{
+    width: 100%;
+    height: 698px;
+    background-color: #264653;
+}
+ul, .list-item{
+    display: flex;
+    list-style: none;
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+ul, .list-item, .login{
+    justify-content: flex-end;
+    margin-top: 50px;
+}
+.list-item li{
+    margin-right: 30px;
+}
+.list-item{
+    margin-right: 100px;
+}
+.login{
+    margin-right: 30px;
+    width: 90px;
+    height: 35px;
+    background-color: orangered;
+    text-align: center;
+    border-radius: 10px;
+}
+.top-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.top-text{
+    width: 45%;
+    color: white;
+ 
+    
+
+}
+.purchase{
+    margin-right: 30px;
+    width: 200px;
+    height: 39px;
+    background-color: orangered;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.feature{
+    width: 100%;
+}
+
+
+.image{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+   
+    
+}
+.L-R-img{
+    filter: grayscale(100%);
+}
+.image img{
+    width: 250px;
+    height: 200px;
+}
+.text{
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.text p{
+    color: orangered;
+    margin-bottom: 0;
+}
+hr.left{
+    border:1px solid red;
+    width: 5%;
+    margin-left: 48%;
+    margin-top: 0;
+}
+.review{
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+    width: 332px;
+    border: 1px solid gainsboro;
+    
+  
+    align-items: center;
+   
+}
+.review img{
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 30%;
+    
+}
+.review p{
+    text-align: center;
+   
+}
+.star{
+    color: yellow;
+}
+.empty{
+    color: gray;
+}
+.reviews{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+.user-3{
+    border-radius: 50%;
+}
+.review-section h1{
+    text-align: center;
+    margin-top: 100px;
+}
+span{
+    color: orange;
+}
+.freequently{
+    display: flex;
+    justify-content: space-around;
+}
+.image1 img{
+    width: 100%;
+    height: 300px;
+}
+.colps{
+    display: flex;
+    
+    justify-content: center;
+}
+.collaps{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    border: 1px solid gainsboro;
+    height: 70px;
+    
+    justify-content: center;
+    
+}
+
+/* responsive */
+
+
+@media only screen and (max-width:594px) {
+    .top-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .top-section img{
+        width: 70%;
+        margin-left: 50px;
+    }
+    .banner{
+        height: auto;
+    }
+    .image{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .image img{
+        margin-top: 20px;
+    }
+    .reviews{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .freequently{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .faq{
+        width: 80%;
+    }
+    ul{
+        width: 105%;
+    }
+    
+}
